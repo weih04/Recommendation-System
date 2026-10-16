@@ -1,0 +1,34 @@
+{
+ "Markov: backoff scheme|hard backoff": {
+  "max_order": 6,
+  "min_count": 1
+ },
+ "Markov: backoff scheme|no backoff": {
+  "max_order": 1
+ },
+ "GRU4Rec: side feature|+ rating band (summed embedding)": {
+  "lr": 0.0062386933063921166,
+  "weight_decay": 6.879349481465845e-06,
+  "dropout": 0.18209556903809687,
+  "embed_dim": 256,
+  "num_layers": 1,
+  "batch_size": 256,
+  "max_len": 200
+ },
+ "SASRec: side feature|+ rating band (summed embedding)": {
+  "lr": 0.005550719735709305,
+  "weight_decay": 0.0002378926122822152,
+  "dropout": 0.08537509101204183,
+  "embed_dim": 128,
+  "num_layers": 1,
+  "batch_size": 128,
+  "max_len": 100,
+  "num_heads": 2
+ },
+ "FPMC: user representation|Persona (own rating band x side)": {
+  "emb_dim": 128,
+  "lr": 0.0003823475224675188,
+  "weight_decay": 6.847920095574779e-05,
+  "batch_size": 256
+ }
+}
